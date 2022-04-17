@@ -297,11 +297,12 @@ ul li label span
 	padding: 20px;
 }
 
-	@media only screen and (max-width: 480px)
+	@media only screen and (max-width: 1024px)
 	{
 		.inline
 		{
-			display: inline-block;
+			display: block;
+			
 		}
 			.content_image
 		{
@@ -313,7 +314,7 @@ ul li label span
 		.image_content
 		{
 			background: radial-gradient(rgba(139,0,0,0.84), rgba(128,0,0,0.84)), url('../images/class.jpg');
-			height: 130vh;
+			height: 150vh;
 			width: 100%;
 			background-position: center;
 			background-size: cover;
@@ -389,12 +390,123 @@ ul li label span
 		font-size: 18px;;
 
 	} 
+	.content_image img
+	{
+		width: 70%;
+	}
 	.accordion
 	{
 		margin: 30px auto;
 		width: 700px;
-		height: 190vh;
+		height: 130vh;
 	}
+}
+	
+	@media only screen and (max-width: 768px)
+	{
+		.inline
+		{
+			display: block;
+			
+		}
+			.content_image
+		{
+			margin: 30px 120px;
+			text-align: center;
+			
+		}
+		
+		.image_content
+		{
+			background: radial-gradient(rgba(139,0,0,0.84), rgba(128,0,0,0.84)), url('../images/class.jpg');
+			height: 150vh;
+			width: 100%;
+			background-position: center;
+			background-size: cover;
+			
+		}	
+		
+		.image_content h2
+		{
+			justify-content: center;
+			text-align: center;
+			width: 90%;
+			font-size: 30px;
+			margin: auto;
+			color: white;
+			padding: 20px;
+		}
+		.image_box
+		{
+			display: block;
+			margin: 30px;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			
+			text-align: center;
+			
+		}
+		.image1
+		{
+			width: 80%;
+			margin: auto;
+			box-shadow: 0 0 2px silver;
+			flex: 1;
+			padding: 20px;
+			flex-wrap: wrap;
+		}
+		.image1 img
+		{
+			width: 100%;
+		}
+		.testimo
+		{
+			width: 70%;
+			
+			margin: 10px auto;
+			
+			display: block;
+		}
+		.test img
+		{
+			width: 100%;
+			margin: auto;
+			
+			
+		}
+			ul li
+		{
+			list-style: none;
+			background: white;
+			padding: 20px;
+			width: 70%;
+			margin: 12px auto;
+			border-radius: 10px;
+		}
+	ul li label
+	{
+		font-weight: 600;
+		justify-content: space-between;
+		display: flex;
+		cursor: pointer;
+		padding: 10px;
+		align-items: center;
+		font-size: 18px;;
+
+	} 
+	.content_image img
+	{
+		width: 70%;
+	}
+	.accordion
+	{
+		margin: 30px auto;
+		width: 700px;
+		height: 220vh;
+	}
+}
+	
 }
 	
 		
