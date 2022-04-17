@@ -297,7 +297,7 @@ ul li label span
 	padding: 20px;
 }
 
-	@media only screen and (max-width: 700px)
+	@media only screen and (max-width: 500px)
 	{
 		.inline
 		{
